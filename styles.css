@@ -1,0 +1,82 @@
+body{
+    background-color: hsl(0, 0%, 8%);
+    font-family: Inter;
+    color: hsl(0, 0%, 100%);
+    font-size: 14px;
+}
+.card{
+    width: 100vw;
+    height: 100vh;
+}
+.card, .profile-pic, .name, .location, .description, .links{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 20px;
+}
+.container{
+    background-color: hsl(0, 0%, 12%);
+    padding: 20px;
+    border-radius: 10px;
+}
+img{
+    border-radius: 100px;
+    width: 100px;
+}
+.name{
+    margin-top: 30px;
+    font-size: 1.7em;
+    font-weight: 500;
+}
+.location{
+    margin-top: -10px;
+    color: hsl(75, 94%, 57%);
+    font-weight: 600;
+}
+.description{
+    margin-top: 25px;
+}
+.links{
+    display: grid;
+    margin: 8px;
+    text-align: center;
+}
+.background{
+    margin: 10px;
+    background-color: hsl(0, 0%, 20%);
+    color: hsl(0, 0%, 100%);
+    text-decoration: none;
+    padding: 15px;
+    font-weight: 700;
+    border-radius: 10px;
+    width: 300px;
+}
+.Instagram{
+    margin-bottom: 20px;
+}
+.background:hover{
+    cursor: pointer;
+    background-color: hsl(75, 94%, 57%);
+    color: hsl(0, 0%, 8%);
+    transition: 0.3s;
+}
+.background:active{
+    background-color: hsl(0, 0%, 8%);
+    color: hsl(75, 94%, 57%);
+}
+footer{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-left: 4em;
+
+}
+.attribution > a{
+    cursor: pointer;
+    color: hsl(0, 0%, 100%);
+}
+.attribution > a:hover{
+    cursor: pointer;
+    color: hsl(75, 94%, 57%);
+    transition: 0.3s;
+}
