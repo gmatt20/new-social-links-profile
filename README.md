@@ -34,7 +34,7 @@ Users should be able to:
 ### Links
 
 - [Solution URL](https://www.frontendmentor.io/solutions/short-and-sweet-programming-y-uOANVB2Z)
-- [Site URL URL](https://gmatt20.github.io/social-links-profile-main/#)
+- [Site URL URL](https://gmatt20.github.io/new-social-links-profile/)
 
 ## My process
 
